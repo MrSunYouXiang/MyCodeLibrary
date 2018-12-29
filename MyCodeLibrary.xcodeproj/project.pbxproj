@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3322BF9421D763D9009D6703 /* UIView+SYXXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322BF9321D763D9009D6703 /* UIView+SYXXIB.m */; };
+		3322BF9721D763EE009D6703 /* UIViewController+SYXXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322BF9621D763EE009D6703 /* UIViewController+SYXXIB.m */; };
+		3322BF9D21D76511009D6703 /* NSString+AutoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322BF9C21D76511009D6703 /* NSString+AutoSize.m */; };
+		3322BFA121D767DB009D6703 /* NSString+SYXMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322BFA021D767DB009D6703 /* NSString+SYXMD5.m */; };
+		3322BFA421D76891009D6703 /* CALayer+SYXLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322BFA321D76891009D6703 /* CALayer+SYXLayer.m */; };
+		3322BFA721D76AE0009D6703 /* NSString+SYXBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322BFA621D76AE0009D6703 /* NSString+SYXBase64.m */; };
 		3358FF4A21D61AA300875F7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3358FF4921D61AA300875F7D /* AppDelegate.m */; };
 		3358FF4D21D61AA300875F7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3358FF4C21D61AA300875F7D /* ViewController.m */; };
 		3358FF5021D61AA300875F7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3358FF4E21D61AA300875F7D /* Main.storyboard */; };
@@ -16,6 +22,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3322BF9221D763D9009D6703 /* UIView+SYXXIB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SYXXIB.h"; sourceTree = "<group>"; };
+		3322BF9321D763D9009D6703 /* UIView+SYXXIB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SYXXIB.m"; sourceTree = "<group>"; };
+		3322BF9521D763EE009D6703 /* UIViewController+SYXXIB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SYXXIB.h"; sourceTree = "<group>"; };
+		3322BF9621D763EE009D6703 /* UIViewController+SYXXIB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SYXXIB.m"; sourceTree = "<group>"; };
+		3322BF9B21D76511009D6703 /* NSString+AutoSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AutoSize.h"; sourceTree = "<group>"; };
+		3322BF9C21D76511009D6703 /* NSString+AutoSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AutoSize.m"; sourceTree = "<group>"; };
+		3322BF9E21D765AB009D6703 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3322BF9F21D767DB009D6703 /* NSString+SYXMD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SYXMD5.h"; sourceTree = "<group>"; };
+		3322BFA021D767DB009D6703 /* NSString+SYXMD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SYXMD5.m"; sourceTree = "<group>"; };
+		3322BFA221D76891009D6703 /* CALayer+SYXLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+SYXLayer.h"; sourceTree = "<group>"; };
+		3322BFA321D76891009D6703 /* CALayer+SYXLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SYXLayer.m"; sourceTree = "<group>"; };
+		3322BFA521D76AE0009D6703 /* NSString+SYXBase64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SYXBase64.h"; sourceTree = "<group>"; };
+		3322BFA621D76AE0009D6703 /* NSString+SYXBase64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SYXBase64.m"; sourceTree = "<group>"; };
 		3358FF4521D61AA300875F7D /* MyCodeLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCodeLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3358FF4821D61AA300875F7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3358FF4921D61AA300875F7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +45,10 @@
 		3358FF5421D61AB400875F7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3358FF5621D61AB400875F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3358FF5721D61AB400875F7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3358FF5F21D628C100875F7D /* SYXMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYXMacro.h; sourceTree = "<group>"; };
+		3358FF6021D6292000875F7D /* SYXReferenceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYXReferenceHeader.h; sourceTree = "<group>"; };
+		3358FF6121D62DAC00875F7D /* SYXColorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYXColorMacro.h; sourceTree = "<group>"; };
+		3358FF6221D62DE500875F7D /* SYXFontMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYXFontMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +62,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3322BF9121D76386009D6703 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3322BF9221D763D9009D6703 /* UIView+SYXXIB.h */,
+				3322BF9321D763D9009D6703 /* UIView+SYXXIB.m */,
+				3322BF9521D763EE009D6703 /* UIViewController+SYXXIB.h */,
+				3322BF9621D763EE009D6703 /* UIViewController+SYXXIB.m */,
+				3322BFA221D76891009D6703 /* CALayer+SYXLayer.h */,
+				3322BFA321D76891009D6703 /* CALayer+SYXLayer.m */,
+				3322BF9B21D76511009D6703 /* NSString+AutoSize.h */,
+				3322BF9C21D76511009D6703 /* NSString+AutoSize.m */,
+				3322BF9F21D767DB009D6703 /* NSString+SYXMD5.h */,
+				3322BFA021D767DB009D6703 /* NSString+SYXMD5.m */,
+				3322BFA521D76AE0009D6703 /* NSString+SYXBase64.h */,
+				3322BFA621D76AE0009D6703 /* NSString+SYXBase64.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		3358FF3C21D61AA300875F7D = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +100,13 @@
 		3358FF4721D61AA300875F7D /* MyCodeLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				3322BF9121D76386009D6703 /* Category */,
+				3358FF5E21D6285300875F7D /* CommonHeader */,
 				3358FF4821D61AA300875F7D /* AppDelegate.h */,
 				3358FF4921D61AA300875F7D /* AppDelegate.m */,
 				3358FF4B21D61AA300875F7D /* ViewController.h */,
 				3358FF4C21D61AA300875F7D /* ViewController.m */,
+				3322BF9E21D765AB009D6703 /* PrefixHeader.pch */,
 				3358FF4E21D61AA300875F7D /* Main.storyboard */,
 				3358FF5121D61AB400875F7D /* Assets.xcassets */,
 				3358FF5321D61AB400875F7D /* LaunchScreen.storyboard */,
@@ -69,6 +114,17 @@
 				3358FF5721D61AB400875F7D /* main.m */,
 			);
 			path = MyCodeLibrary;
+			sourceTree = "<group>";
+		};
+		3358FF5E21D6285300875F7D /* CommonHeader */ = {
+			isa = PBXGroup;
+			children = (
+				3358FF6021D6292000875F7D /* SYXReferenceHeader.h */,
+				3358FF5F21D628C100875F7D /* SYXMacro.h */,
+				3358FF6121D62DAC00875F7D /* SYXColorMacro.h */,
+				3358FF6221D62DE500875F7D /* SYXFontMacro.h */,
+			);
+			path = CommonHeader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +198,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3358FF4D21D61AA300875F7D /* ViewController.m in Sources */,
+				3322BF9D21D76511009D6703 /* NSString+AutoSize.m in Sources */,
+				3322BFA421D76891009D6703 /* CALayer+SYXLayer.m in Sources */,
+				3322BF9721D763EE009D6703 /* UIViewController+SYXXIB.m in Sources */,
+				3322BFA721D76AE0009D6703 /* NSString+SYXBase64.m in Sources */,
+				3322BF9421D763D9009D6703 /* UIView+SYXXIB.m in Sources */,
 				3358FF5821D61AB400875F7D /* main.m in Sources */,
 				3358FF4A21D61AA300875F7D /* AppDelegate.m in Sources */,
+				3322BFA121D767DB009D6703 /* NSString+SYXMD5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +349,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EK2DEL3HTC;
+				GCC_PREFIX_HEADER = MyCodeLibrary/PrefixHeader.pch;
 				INFOPLIST_FILE = MyCodeLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +368,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EK2DEL3HTC;
+				GCC_PREFIX_HEADER = MyCodeLibrary/PrefixHeader.pch;
 				INFOPLIST_FILE = MyCodeLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

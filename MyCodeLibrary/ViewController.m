@@ -1,7 +1,7 @@
 //
 //  ViewController.m
 //  MyCodeLibrary
-//
+// UIKIT_EXTERN NSString *const NOTIFICATION_NAME
 //  Created by syx on 2018/12/28.
 //  Copyright © 2018 syx. All rights reserved.
 //
@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
 }
 
 
