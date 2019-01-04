@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //https://www.cnblogs.com/somethingWithiOS/p/5872843.html  SAMKeychain说明
     
+
 }
 
 

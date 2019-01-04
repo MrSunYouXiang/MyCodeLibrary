@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CALayer (SYXLayer)
 
-- (void)setBorderColorFromUIColor:(UIColor *)color
+- (void)setBorderColorFromUIColor:(UIColor *)color;
 
 @end
 

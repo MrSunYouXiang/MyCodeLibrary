@@ -19,6 +19,16 @@
 		3358FF5221D61AB400875F7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3358FF5121D61AB400875F7D /* Assets.xcassets */; };
 		3358FF5521D61AB400875F7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3358FF5321D61AB400875F7D /* LaunchScreen.storyboard */; };
 		3358FF5821D61AB400875F7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3358FF5721D61AB400875F7D /* main.m */; };
+		3375D3F421DF333A00125E17 /* UIView+SYXCaptureImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3375D3F321DF333A00125E17 /* UIView+SYXCaptureImage.m */; };
+		3375D3F721DF34D200125E17 /* UIView+SYXViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3375D3F621DF34D200125E17 /* UIView+SYXViewFrame.m */; };
+		3375D3FE21DF38A900125E17 /* CLSafeMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 3375D3F921DF38A800125E17 /* CLSafeMutableArray.m */; };
+		3375D3FF21DF38A900125E17 /* NSDate+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 3375D3FA21DF38A800125E17 /* NSDate+Common.m */; };
+		3375D40021DF38A900125E17 /* UIViewController+ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3375D3FD21DF38A900125E17 /* UIViewController+ChildViewController.m */; };
+		3375D40421DF3C8900125E17 /* PathUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 3375D40221DF3C8900125E17 /* PathUtility.m */; };
+		3375D40B21DF3D6400125E17 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3375D40721DF3D6400125E17 /* MBProgressHUD.m */; };
+		3375D40C21DF3D6400125E17 /* HUDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3375D40821DF3D6400125E17 /* HUDHelper.m */; };
+		337B85BE21DE108400009557 /* NSString+SYXCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 337B85BD21DE108400009557 /* NSString+SYXCommon.m */; };
+		A318895763461C9932159814 /* libPods-MyCodeLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0319C02D420B498731D158 /* libPods-MyCodeLibrary.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +59,29 @@
 		3358FF6021D6292000875F7D /* SYXReferenceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYXReferenceHeader.h; sourceTree = "<group>"; };
 		3358FF6121D62DAC00875F7D /* SYXColorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYXColorMacro.h; sourceTree = "<group>"; };
 		3358FF6221D62DE500875F7D /* SYXFontMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYXFontMacro.h; sourceTree = "<group>"; };
+		3375D3F221DF333A00125E17 /* UIView+SYXCaptureImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SYXCaptureImage.h"; sourceTree = "<group>"; };
+		3375D3F321DF333A00125E17 /* UIView+SYXCaptureImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SYXCaptureImage.m"; sourceTree = "<group>"; };
+		3375D3F521DF34D100125E17 /* UIView+SYXViewFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SYXViewFrame.h"; sourceTree = "<group>"; };
+		3375D3F621DF34D200125E17 /* UIView+SYXViewFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SYXViewFrame.m"; sourceTree = "<group>"; };
+		3375D3F821DF38A800125E17 /* CLSafeMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSafeMutableArray.h; sourceTree = "<group>"; };
+		3375D3F921DF38A800125E17 /* CLSafeMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSafeMutableArray.m; sourceTree = "<group>"; };
+		3375D3FA21DF38A800125E17 /* NSDate+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Common.m"; sourceTree = "<group>"; };
+		3375D3FB21DF38A800125E17 /* UIViewController+ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ChildViewController.h"; sourceTree = "<group>"; };
+		3375D3FC21DF38A900125E17 /* NSDate+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Common.h"; sourceTree = "<group>"; };
+		3375D3FD21DF38A900125E17 /* UIViewController+ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ChildViewController.m"; sourceTree = "<group>"; };
+		3375D40121DF3AB600125E17 /* SYXDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYXDebug.h; sourceTree = "<group>"; };
+		3375D40221DF3C8900125E17 /* PathUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathUtility.m; sourceTree = "<group>"; };
+		3375D40321DF3C8900125E17 /* PathUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathUtility.h; sourceTree = "<group>"; };
+		3375D40621DF3D6400125E17 /* TipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipUtility.h; sourceTree = "<group>"; };
+		3375D40721DF3D6400125E17 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		3375D40821DF3D6400125E17 /* HUDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDHelper.m; sourceTree = "<group>"; };
+		3375D40921DF3D6400125E17 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		3375D40A21DF3D6400125E17 /* HUDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDHelper.h; sourceTree = "<group>"; };
+		337B85BC21DE108400009557 /* NSString+SYXCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SYXCommon.h"; sourceTree = "<group>"; };
+		337B85BD21DE108400009557 /* NSString+SYXCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SYXCommon.m"; sourceTree = "<group>"; };
+		4296D58C919CB01FF6D9245A /* Pods-MyCodeLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCodeLibrary.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyCodeLibrary/Pods-MyCodeLibrary.release.xcconfig"; sourceTree = "<group>"; };
+		4C0319C02D420B498731D158 /* libPods-MyCodeLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyCodeLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFDCD29105663232FE58713 /* Pods-MyCodeLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCodeLibrary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyCodeLibrary/Pods-MyCodeLibrary.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A318895763461C9932159814 /* libPods-MyCodeLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +111,20 @@
 				3322BFA021D767DB009D6703 /* NSString+SYXMD5.m */,
 				3322BFA521D76AE0009D6703 /* NSString+SYXBase64.h */,
 				3322BFA621D76AE0009D6703 /* NSString+SYXBase64.m */,
+				337B85BC21DE108400009557 /* NSString+SYXCommon.h */,
+				337B85BD21DE108400009557 /* NSString+SYXCommon.m */,
+				3375D3F221DF333A00125E17 /* UIView+SYXCaptureImage.h */,
+				3375D3F321DF333A00125E17 /* UIView+SYXCaptureImage.m */,
+				3375D3F521DF34D100125E17 /* UIView+SYXViewFrame.h */,
+				3375D3F621DF34D200125E17 /* UIView+SYXViewFrame.m */,
+				3375D3F821DF38A800125E17 /* CLSafeMutableArray.h */,
+				3375D3F921DF38A800125E17 /* CLSafeMutableArray.m */,
+				3375D3FC21DF38A900125E17 /* NSDate+Common.h */,
+				3375D3FA21DF38A800125E17 /* NSDate+Common.m */,
+				3375D3FB21DF38A800125E17 /* UIViewController+ChildViewController.h */,
+				3375D3FD21DF38A900125E17 /* UIViewController+ChildViewController.m */,
+				3375D40321DF3C8900125E17 /* PathUtility.h */,
+				3375D40221DF3C8900125E17 /* PathUtility.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -86,6 +134,8 @@
 			children = (
 				3358FF4721D61AA300875F7D /* MyCodeLibrary */,
 				3358FF4621D61AA300875F7D /* Products */,
+				83FC4584884B7680672D0D56 /* Pods */,
+				D3980A90AEFDE95A97721234 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +150,7 @@
 		3358FF4721D61AA300875F7D /* MyCodeLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				3375D40521DF3D6400125E17 /* TipUtility */,
 				3322BF9121D76386009D6703 /* Category */,
 				3358FF5E21D6285300875F7D /* CommonHeader */,
 				3358FF4821D61AA300875F7D /* AppDelegate.h */,
@@ -121,10 +172,40 @@
 			children = (
 				3358FF6021D6292000875F7D /* SYXReferenceHeader.h */,
 				3358FF5F21D628C100875F7D /* SYXMacro.h */,
+				3375D40121DF3AB600125E17 /* SYXDebug.h */,
 				3358FF6121D62DAC00875F7D /* SYXColorMacro.h */,
 				3358FF6221D62DE500875F7D /* SYXFontMacro.h */,
 			);
 			path = CommonHeader;
+			sourceTree = "<group>";
+		};
+		3375D40521DF3D6400125E17 /* TipUtility */ = {
+			isa = PBXGroup;
+			children = (
+				3375D40621DF3D6400125E17 /* TipUtility.h */,
+				3375D40721DF3D6400125E17 /* MBProgressHUD.m */,
+				3375D40821DF3D6400125E17 /* HUDHelper.m */,
+				3375D40921DF3D6400125E17 /* MBProgressHUD.h */,
+				3375D40A21DF3D6400125E17 /* HUDHelper.h */,
+			);
+			path = TipUtility;
+			sourceTree = "<group>";
+		};
+		83FC4584884B7680672D0D56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AFDCD29105663232FE58713 /* Pods-MyCodeLibrary.debug.xcconfig */,
+				4296D58C919CB01FF6D9245A /* Pods-MyCodeLibrary.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3980A90AEFDE95A97721234 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C0319C02D420B498731D158 /* libPods-MyCodeLibrary.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3358FF5B21D61AB400875F7D /* Build configuration list for PBXNativeTarget "MyCodeLibrary" */;
 			buildPhases = (
+				1C870453FB35AFBECB3F1129 /* [CP] Check Pods Manifest.lock */,
 				3358FF4121D61AA300875F7D /* Sources */,
 				3358FF4221D61AA300875F7D /* Frameworks */,
 				3358FF4321D61AA300875F7D /* Resources */,
+				9DCF56E08EE453C6CFD31524 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +275,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C870453FB35AFBECB3F1129 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyCodeLibrary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DCF56E08EE453C6CFD31524 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyCodeLibrary/Pods-MyCodeLibrary-resources.sh",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMKeychain.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyCodeLibrary/Pods-MyCodeLibrary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3358FF4121D61AA300875F7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -199,13 +329,22 @@
 			files = (
 				3358FF4D21D61AA300875F7D /* ViewController.m in Sources */,
 				3322BF9D21D76511009D6703 /* NSString+AutoSize.m in Sources */,
+				3375D3F721DF34D200125E17 /* UIView+SYXViewFrame.m in Sources */,
+				3375D40021DF38A900125E17 /* UIViewController+ChildViewController.m in Sources */,
+				3375D3F421DF333A00125E17 /* UIView+SYXCaptureImage.m in Sources */,
+				3375D3FE21DF38A900125E17 /* CLSafeMutableArray.m in Sources */,
 				3322BFA421D76891009D6703 /* CALayer+SYXLayer.m in Sources */,
+				3375D40C21DF3D6400125E17 /* HUDHelper.m in Sources */,
+				3375D40B21DF3D6400125E17 /* MBProgressHUD.m in Sources */,
 				3322BF9721D763EE009D6703 /* UIViewController+SYXXIB.m in Sources */,
 				3322BFA721D76AE0009D6703 /* NSString+SYXBase64.m in Sources */,
+				3375D40421DF3C8900125E17 /* PathUtility.m in Sources */,
 				3322BF9421D763D9009D6703 /* UIView+SYXXIB.m in Sources */,
 				3358FF5821D61AB400875F7D /* main.m in Sources */,
+				337B85BE21DE108400009557 /* NSString+SYXCommon.m in Sources */,
 				3358FF4A21D61AA300875F7D /* AppDelegate.m in Sources */,
 				3322BFA121D767DB009D6703 /* NSString+SYXMD5.m in Sources */,
+				3375D3FF21DF38A900125E17 /* NSDate+Common.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +484,7 @@
 		};
 		3358FF5C21D61AB400875F7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AFDCD29105663232FE58713 /* Pods-MyCodeLibrary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -364,6 +504,7 @@
 		};
 		3358FF5D21D61AB400875F7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4296D58C919CB01FF6D9245A /* Pods-MyCodeLibrary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
